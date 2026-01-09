@@ -1,0 +1,82 @@
+/* Seção de Equipe */
+.team-section {
+    background-color: #090c10; /* Um tom levemente mais escuro que o fundo principal */
+    padding: 80px 0;
+    border-top: 1px solid #30363d;
+}
+
+.team-grid {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.developer-card {
+    background: var(--card-bg);
+    border: 1px solid #30363d;
+    border-radius: 15px;
+    padding: 30px;
+    width: 300px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.developer-card:hover {
+    border-color: var(--accent-green);
+    box-shadow: 0 10px 30px rgba(46, 160, 67, 0.1);
+}
+
+.photo-container {
+    width: 120px;
+    height: 120px;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+    padding: 5px;
+    background: linear-gradient(45deg, var(--primary-green), var(--accent-green));
+}
+
+.photo-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid var(--card-bg);
+}
+
+.developer-card h3 {
+    margin-bottom: 5px;
+    color: var(--text-main);
+}
+
+.developer-card span {
+    display: block;
+    color: var(--accent-green);
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.developer-card p {
+    font-size: 0.9rem;
+    color: var(--text-dim);
+    margin-bottom: 20px;
+}
+
+.social-links a {
+    color: var(--text-dim);
+    text-decoration: none;
+    font-size: 0.8rem;
+    margin: 0 10px;
+    transition: 0.3s;
+    border: 1px solid #30363d;
+    padding: 5px 12px;
+    border-radius: 20px;
+}
+
+.social-links a:hover {
+    color: var(--accent-green);
+    border-color: var(--accent-green);
+}
